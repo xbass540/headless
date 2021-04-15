@@ -27,6 +27,8 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
 
+//Helmet passes all its attributes to the head of the html file
+
   return (
     <Helmet
       htmlAttributes={{
